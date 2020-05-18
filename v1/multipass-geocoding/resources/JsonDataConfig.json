@@ -1,0 +1,28 @@
+{
+  "config" : { },
+  "roots" : {
+    "root1" : "./data/WashingtonDCReferenceData"
+  },
+  "countries" : [ {
+    "country" : "USA",
+    "properties" : {
+      "RETURN_EXTENDED_DATA" : "yes",
+      "DEBUG" : "no",
+      "GEOSTAN_INSTANCE_COUNT" : "5",
+      "APN_CODE" : "true",
+      "ELV_CODE" : "true",
+      "FILE_MEMORY_LIMIT" : "2000"
+    },
+    "dataSets" : [ {
+      "name" : "WashingtonDCReferenceData",
+      "path" : "",
+      "rootId" : "root1",
+      "useRoot" : true,
+      "interactive" : false
+    } ]
+  }, {
+    "country" : "CORE_SETTINGS",
+    "properties" : { },
+    "dataSets" : [ ]
+  } ]
+}
